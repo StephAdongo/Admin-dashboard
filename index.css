@@ -1,0 +1,35 @@
+.container {
+    display: grid; 
+    height: 100%;
+    width: 700px;
+    box-sizing: border-box;
+    grid-template-columns: 300px 900px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.side-bar {
+    background-color: #0284c7;
+    grid-row: 1/4;
+    padding: 20px;  
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type:none;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 16px;
+}
+.dashboard {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    height: 70px;
+    margin-left: 30px;
+}
+.links {
+    height: 250px;
+}
