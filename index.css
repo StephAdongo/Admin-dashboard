@@ -190,3 +190,48 @@ h3{
     justify-items: end;
     padding: 8px;
 }
+.info-up{
+    display: grid;
+    grid-row:2/3;
+    border: 2px solid rgba(17, 17, 17, 0.257);
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.table-up{
+    display: grid;
+    align-items: stretch;
+    padding: 20px;
+}
+.table-up > div{
+    display: grid;
+}
+
+#table-up-one, #table-up-two{
+    border-bottom: 1px solid grey;
+}
+.table-down{
+    display: grid;
+    align-items: stretch;
+    padding: 10px;
+    border: 2px solid rgba(17, 17, 17, 0.257);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.info-down{
+    display: grid;
+    grid-row:4/5;
+    margin: 10px;
+}
+.trends {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column: 1/2;
+    grid-template-rows: repeat(5, auto);
+    align-items: center;
+    margin-bottom: 5px;
+}
+.name-trends{
+    font-weight: bold;
+    margin:5px;
+}
